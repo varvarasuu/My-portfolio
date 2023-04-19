@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <!-- css import  -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="scripts/script.js"></script>
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="close" id="close_btn" onclick="handleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="nav" id="nav_panel">
+        <ul class="nav_list"> 
+          <li class="nav_list-item"><a href="#" class="nav_list-link">Home</a></li>
+          <li class="nav_list-item"><a href="#about_me_link" class="nav_list-link">About me</a></li>
+          <li class="nav_list-item"><a href="#skills_link" class="nav_list-link">Skills</a></li>
+          <li class="nav_list-item"><a href="#portfolio_link" class="nav_list-link">Portfolio</a></li>
+          <li class="nav_list-item"><a href="#contacts_link" class="nav_list-link">Contacts</a></li>
+        </ul>
+        <div class="language"><span class="grey">RU</span> | ENG</div>
+      </nav>
+      <div class="hero">
+        <ul class="hero_list">
+          <li class="hero_list-item-1">Denis <br> Novik</li>
+          <li class="hero_list-item-2">UX | UI designer <br>24 years old, Minsk</li>
+          <li class="hero_list-item-3"></li>
+          <li class="hero_list-item-4"><span class="grey">RU</span> | ENG</li>
+        </ul>
+        <div class="hero-picture"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="about_me">
+        <a id="about_me_link"></a>
+        <h2 class="about_me_header">About me</h2>
+        <p class="about_me_text">Hi, I'm Denis – UX/UI designer from Minsk. <br>
+          I'm interested in design and everything connected with it. <br><br><br>
+          I'm studying at courses "Web and mobile design<br> interfaces" in IT-Academy. <br><br><br>
+           Ready to implement excellent projects<br> with wonderful people.</p>
+      </section>
+      <section class="skills">
+        <a id="skills_link"></a>
+        <h2 class="skills_header">Skills</h2>
+        <p class="skills_text">I work in such programs as</p>
+        <ul class="skills_boxes">
+          <li class="skills_boxes_items">
+            <div class="skills_boxes_itmes_image skills_boxes_itmes_image__photoshop"></div>
+            <p class="skills_boxes_items_text">Adobe Photoshop</p>
+            <ul class="skills_boxes_items_stars">
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__passive"></li>
+            </ul>
+          </li>
+          <li class="skills_boxes_items">
+            <div class="skills_boxes_itmes_image skills_boxes_itmes_image__illustrator"></div>
+            <p class="skills_boxes_items_text">Adobe Illustrator</p>
+            <ul class="skills_boxes_items_stars">
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__passive"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__passive"></li>
+            </ul>
+          </li> 
+          <li class="skills_boxes_items">
+            <div class="skills_boxes_itmes_image skills_boxes_itmes_image__effects"></div>
+            <p class="skills_boxes_items_text">Adobe After Effects</p>
+            <ul class="skills_boxes_items_stars">
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__passive"></li>
+            </ul>
+          </li>
+          <li class="skills_boxes_items">
+            <div class="skills_boxes_itmes_image skills_boxes_itmes_image__figma"></div>
+            <p class="skills_boxes_items_text">Figma</p>
+            <ul class="skills_boxes_items_stars">
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__active"></li>
+              <li class="skills_boxes_items_stars_single skills_boxes_items_stars_single__passive"></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="portfolio">
+        <a id="portfolio_link"></a>
+        <h2 class="portfolio_header">Portfolio</h2>
+        <ul class="portfolio_list">
+          <li class="portfolio_list-item">
+            <div class="portfolio_list-img portfolio_list-img__fashion"></div>
+            <div class="portfolio_list-links">
+              <a href="#" class="portfolio_list-text">Online fashion store - Homepage</a>
+            </div>
+          </li>
+          <li class="portfolio_list-item">
+            <div class="portfolio_list-img portfolio_list-img__reebok"></div>
+            <div class="portfolio_list-links">
+              <a href="#" class="portfolio_list-text">Reebok Store - Concept</a>
+            </div>
+          </li>
+          <li class="portfolio_list-item">
+            <div class="portfolio_list-img portfolio_list-img__braun"></div>
+            <div class="portfolio_list-links">
+              <a href="#" class="portfolio_list-text">Braun Landing Page - Concept</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <a id="contacts_link"></a>
+      <h2 class="footer_header">Contacts</h2>
+      <p class="footer_text">Want to know more or just chat? <br>You are welcome!</p>
+      <button class="footer_btn">Send message</button>
+      <ul class="footer_links">
+        <li class="footer_items footer_items__linkedin"><a href="#"></a></li>
+        <li class="footer_items footer_items__insta"><a href="#"></a></li>
+        <li class="footer_items footer_items__behance"><a href="#"></a></li>
+        <li class="footer_items footer_items__dribbble"><a href="#"></a></li>
+      </ul>
+      <p class="footer_recomendation">Like me on <br>
+        LinkedIn, Instagram, Behance, Dribbble</p>
+    </footer>
+    <!-- <script src="./scripts/script.js"></script> -->
+  </body>
+</html>
